@@ -1,6 +1,3 @@
-body { padding-top: 70px; 
-}
-
 section {
     padding: 100px 0;
 }
@@ -9,4 +6,133 @@ section {
     text-align: center;
 }
 
+#orit {
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#frs, #zig {
+    width: 300px;
+    height: 250px;
+}
+
+#zig {
+    background-color: white;
+}
+
+#portfolio {
+    background-color: rgb(0,133,130);
+    padding: 55px 0;
+    padding-bottom: 80px;
+}
+
+#me {
+    background-color: rgb(0,133,130);
+    padding-top: 150px;
+    padding-bottom: 100px;
+
+}
+
+#mainNav {
+    background-color: rgb(42,62,81);
+    padding: 15px 0;
+}
+
+.footer-above {
+    background-color: rgb(42,62,81);
+    padding: 100px 0;
+}
+
+.footer-below {
+    background-color: #1a252f;
+    padding: 25px 0;
+    color: white;
+}
+
+#send {
+    background-color: rgb(0,133,130);
+}
+
+.navbar-default {
+    border-color: rgb(42,62,81);
+}
+
+.img-responsive {
+    margin-bottom: 20px;
+}
+
+#portfolioHead {
+    color: white;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+#aboutHead {
+    color: rgb(42,62,81);
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 60px; 
+}
+
+#contactHead {
+    color: rgb(42,62,81);
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 60px; 
+}
+
+.links {
+    color: white !important;
+    font-size: 20px;
+}
+
+#navName {
+    font-size: 30px;
+}
+
+.name {
+    font-size: 80px;
+    font-weight: 700;
+    color: white;
+}
+
+.skills {
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+.fa-facebook-f:before, .fa-facebook:before {
+    font-size: 30px;
+    color: white;
+}
+
+.fa-instagram:before {
+    font-size: 30px;
+    color: white;
+}
+
+.fa-linkedin:before {
+    font-size: 30px;
+    color: white;
+}
+
+.fa-github:before {
+    font-size: 30px;
+    color: white;
+}
+
+.icon {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#social {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
 

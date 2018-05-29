@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Orit Freud</title>
 </head>
@@ -16,7 +18,7 @@
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                             <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                         </button>
-                        <a class="navbar-brand" href="#page-top">Orit Freud</a>
+                        <a id="navName" class="links navbar-brand" href="#page-top">Orit Freud</a>
                     </div>
         
                     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -26,13 +28,13 @@
                                 <a href="#page-top"></a>
                             </li>
                             <li class="page-scroll">
-                                <a href="#portfolio">Portfolio</a>
+                                <a class="links" href="#portfolio">Portfolio</a>
                             </li>
                             <li class="page-scroll">
-                                <a href="#about">About</a>
+                                <a class="links" href="#about">About</a>
                             </li>
                             <li class="page-scroll">
-                                <a href="#contact">Contact</a>
+                                <a class="links" href="#contact">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -42,18 +44,18 @@
             </nav>
         
             <!-- Header -->
-            <header>
+            <header id="me">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <!-- <img class="img-responsive" src="assets/img/orit.jpeg" alt=""> -->
+                    
+                        
+                            <img id="orit" class="img-responsive img-circle" src="assets/img/orit1.jpg" alt="Orit">
                             <div class="intro-text">
                                 <span class="name">Orit Freud</span>
                                 <hr>
-                                <span class="skills">Full Stack Web Developer</span>
+                                <span class="skills">Project Manager - Back End Web Developer</span>
                             </div>
-                        </div>
-                    </div>
+                      
+                   
                 </div>
             </header>
 
@@ -61,7 +63,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12 text-center">
-                                <h2>About</h2>
+                                <h2 id="aboutHead" >About</h2>
                             </div>
                         </div>
                         <div class="row">
@@ -80,69 +82,54 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 text-center">
-                            <h2>Portfolio</h2>
+                            <h2 id="portfolioHead" >Portfolio</h2>
                           
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-4 portfolio-item">
                             <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                                <div class="caption">
-                                    <div class="caption-content">
-                                        <i class="fa fa-search-plus fa-3x"></i>
-                                    </div>
-                                </div>
-                                <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
+                                <img src="assets/img/dance.jpg" class="img-responsive" alt="">
                             </a>
                         </div>
                         <div class="col-sm-4 portfolio-item">
                             <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                                <div class="caption">
-                                    <div class="caption-content">
-                                        <i class="fa fa-search-plus fa-3x"></i>
-                                    </div>
-                                </div>
-                                <img src="img/portfolio/cake.png" class="img-responsive" alt="">
+                                <img src="assets/img/disney.png" class="img-responsive" alt="">
                             </a>
                         </div>
                         <div class="col-sm-4 portfolio-item">
                             <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                                <div class="caption">
-                                    <div class="caption-content">
-                                        <i class="fa fa-search-plus fa-3x"></i>
-                                    </div>
-                                </div>
-                                <img src="img/portfolio/circus.png" class="img-responsive" alt="">
+                                <img src="assets/img/friends.jpg" class="img-responsive" alt="">
                             </a>
                         </div>
                         <div class="col-sm-4 portfolio-item">
                             <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                                <div class="caption">
-                                    <div class="caption-content">
-                                        <i class="fa fa-search-plus fa-3x"></i>
-                                    </div>
-                                </div>
-                                <img src="img/portfolio/game.png" class="img-responsive" alt="">
+                                <img src="assets/img/hangman.jpg" class="img-responsive" alt="">
                             </a>
                         </div>
                         <div class="col-sm-4 portfolio-item">
                             <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                                <div class="caption">
-                                    <div class="caption-content">
-                                        <i class="fa fa-search-plus fa-3x"></i>
-                                    </div>
-                                </div>
-                                <img src="img/portfolio/safe.png" class="img-responsive" alt="">
+                                <img src="assets/img/moody.png" class="img-responsive" alt="">
                             </a>
                         </div>
                         <div class="col-sm-4 portfolio-item">
                             <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                                <div class="caption">
-                                    <div class="caption-content">
-                                        <i class="fa fa-search-plus fa-3x"></i>
-                                    </div>
-                                </div>
-                                <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
+                                <img src="assets/img/ring.jpg" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                        <div class="col-sm-4 portfolio-item">
+                            <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                                <img src="assets/img/travel.jpg" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                        <div class="col-sm-4 portfolio-item">
+                            <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                                <img id="frs" src="assets/img/frs_logo2.gif" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                        <div class="col-sm-4 portfolio-item">
+                            <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                                <img id="zig" src="assets/img/logoColor.png" class="img-responsive" alt="">
                             </a>
                         </div>
                     </div>
@@ -157,7 +144,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 text-center">
-                            <h2>Contact Me</h2>
+                            <h2 id="contactHead" >Contact Me</h2>
                             
                         </div>
                     </div>
@@ -198,7 +185,7 @@
                                 <div id="success"></div>
                                 <div class="row">
                                     <div class="form-group col-xs-12">
-                                        <button type="submit" class="btn btn-success btn-lg">Send</button>
+                                        <button id="send" type="submit" class="btn btn-success btn-lg">Send</button>
                                     </div>
                                 </div>
                             </form>
@@ -213,22 +200,22 @@
                     <div class="container">
                         <div class="row">
                             <div class="footer-col col-md-6 col-md-offset-3">
-                                <h3>Around the Web</h3>
+                                <h3 id="social">Around the Web</h3>
                                 <ul class="list-inline">
                                     <li>
-                                        <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                                        <a href="https://github.com/orit1989" target="_blank">
+                                            <i class="icon fa fa-github"></i>
+                                            </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                                        <a href="https://www.linkedin.com/in/orit-freud-9437ba131/" target="_blank">
+                                            <i class="icon fa fa-linkedin"></i>
+                                            </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                                        <a href="https://www.facebook.com/orit.freud" target="_blank">
+                                            <i class="icon fa fa-facebook"></i>
+                                            </a>
                                     </li>
                                 </ul>
                             </div>
@@ -239,7 +226,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
-                                Copyright &copy; Your Website 2016
+                                Copyright &copy; Orit Freud 2018
                             </div>
                         </div>
                     </div>
