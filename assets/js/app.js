@@ -8,7 +8,7 @@ $("#contact-form").submit(function(event){
         alert("Please check your entries");
     } else {
         $.ajax({
-            url: "http://formspree.io/oritfreud@gmail.com", 
+            url: "https://formspree.io/oritfreud@gmail.com", 
             method: "POST",
             data: $(this).serialize(),
             dataType: "json"
